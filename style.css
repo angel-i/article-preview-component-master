@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
+}
+.container{
+    width: 800px;
+    background-color: red;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content:center;
+    
+}
+.left-column{
+background: url(images/drawers.jpg) center center/cover no-repeat;
+width: 40%;
+height: 300px;
+
+}
+
+.right-column{
+    width: 60%;
+    background-color:white;
+    padding: 40px;
+    height: 300px;
+}
+.right-column h3{
+    color: hsl(217, 19%, 35%);
+    margin-bottom: 10px;
+}
+.right-column p{
+    font-size: 13px;
+    color: hsl(217, 19%, 35%);
+    margin-bottom:10px ;
+}
+.profile{
+    position: relative;
+}
+.profile .name{
+    display: inline-block;
+    font-weight: 700;
+    position: absolute;
+    left: 66px;
+    top: 4px;
+}
+.profile .date{
+    display: inline-block;
+    position: absolute;
+    left: 66px;
+    top: 29px;
+}
+
+.profile-image{
+    background: url(images/avatar-michelle.jpg) center center/cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    display: inline-block;
+}
+.icon svg{
+    background-color:hsl(210, 46%, 95%);
+    width: 30px;
+    height: 30px;
+    
+    border-radius: 20px;
+    position: absolute;
+    right: 50px;
+    top: 9px;
+
+}
