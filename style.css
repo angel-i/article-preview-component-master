@@ -64,9 +64,9 @@ body {
   border-radius: 40px;
   display: inline-block;
 }
-.icon svg {
-  background-color: hsl(217, 19%, 35%);
-  width: 30px;
+/* .icon  {
+ /* background-color: hsl(217, 19%, 35%);*/
+/*   width: 30px;
   height: 30px;
 
   border-radius: 20px;
@@ -78,8 +78,20 @@ body {
   text-align: center;
   cursor: pointer;
   line-height: 30px;
+} */
+ 
+.fa-share{
+  color: hsl(214, 17%, 51%);
+  width: 30px;
+  height: 30px;
+  background-color:hsl(210, 46%, 95%);
+  text-align: center;
+  line-height: 30px;
+  border-radius: 20px;
+  position: absolute;
+  right: 3px;
+  bottom: 17px;
 }
-
 .active-bar {
   background-color: hsl(217, 19%, 35%);
 
@@ -91,7 +103,8 @@ body {
   position: absolute;
   left: 249px;
   top: 138px;
-  /*opacity: 0;*/
+  opacity: 0;
+  
 }
 .active-bar svg {
   margin-right: 10px;
@@ -107,4 +120,28 @@ body {
   font-size: 13px;
   cursor: pointer;
  
+}
+
+@media (max-width: 500px) {
+
+  .container{
+    flex-direction: column;
+    align-items: center;
+    /*alinea verticalemnte al ser column*/
+    justify-content: flex-start;
+    width: 374px;
+    height: 78vh;
+  }
+  .right-column{
+    width: 100%;
+  }
+  .left-column {
+    width: 100%;
+  }
+  .fa-share {
+    right: 101px;
+  }
+  .active-bar{
+    left: 65px;
+  }
 }
