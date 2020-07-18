@@ -91,6 +91,7 @@ body {
   position: absolute;
   right: 3px;
   bottom: 17px;
+  cursor: pointer;
 }
 .active-bar {
   background-color: hsl(217, 19%, 35%);
@@ -156,10 +157,10 @@ body {
     align-items: center;
     justify-content: center;*/
   }
-  .active-bar svg{
+  
    /* width: 30px;
     height: 30px;
     background-color: red;*/
     /*margin: 20px auto;*/
-  }
+  
 }
